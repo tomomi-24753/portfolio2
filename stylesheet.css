@@ -122,6 +122,7 @@
 .reviews {
     background-image: url(../portfolio2/cnt04_bg.jpg);
     height: 750px;
+    background-size: contain;
 }
 
 .reviews-maintext {
