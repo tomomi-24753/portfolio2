@@ -23,7 +23,7 @@
 
 .worries {
     height: 800px;
-    background-image: url(../portfolio/texture_00010.jpg);
+    background-image: url(../portfolio2/texture_00010.jpg);
 }
 
 .worries-wrap {
@@ -112,7 +112,7 @@
 
 .reviews {
     /* background-color: #fffbf4; */
-    background-image: url(../portfolio/cnt04_bg.jpg);
+    background-image: url(../portfolio2/cnt04_bg.jpg);
     height: 750px;
 }
 
