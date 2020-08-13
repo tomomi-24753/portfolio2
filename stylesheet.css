@@ -21,6 +21,15 @@
     width: 100%;
 }
 
+.pc {
+     display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+
 .worries {
     height: 800px;
     background-image: url(../portfolio2/texture_00010.jpg);
@@ -304,6 +313,15 @@
 
 /*スマホ対応*/
 @media (max-width: 576px) {
+
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+
     .worries {
         height: 650px;
     }
