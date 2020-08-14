@@ -220,13 +220,6 @@
 /*タブレット対応*/
 @media (max-width: 992px) {
 
-    /* .pc {
-        display: none !important;
-    }
-
-    .sp {
-        display: none !important;
-    } */
 
     .worries {
         height: 650px;
@@ -455,25 +448,27 @@
     }
 
     .form {
-        height: 350px;
+        height: 430px;
     }
 
     .form-maintext h2 {
-        font-size: 19px;
+        font-size: 20px;
         padding: 20px 0 0;
+        line-height: 35px;
     }
 
     .form-maintext .pinktext {
-        font-size: 21px;
+        font-size: 30px;
     }
 
     .form-img {
-        margin: 30px auto;
+        margin: 20px auto 30px;
+        width: 90%;
     }
 
     .button {
-        font-size: 16px;
-        padding: 10px 30px;
+        font-size: 20px;
+        padding: 10px 40px;
         color: white;
         background-color: #933D74;
         border-radius: 10px;
