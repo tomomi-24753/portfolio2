@@ -220,6 +220,13 @@
 /*タブレット対応*/
 @media (max-width: 992px) {
 
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
 
     .worries {
         height: 650px;
