@@ -22,7 +22,7 @@
 
 
 .worries {
-    height: 800px;
+    /* height: 800px; */
     background-image: url(../portfolio2/texture_00010.jpg);
 }
 
@@ -46,11 +46,11 @@
 .worrieslist {
     text-align: center;
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 0 40px;
 }
 
 .benefit {
-    height: 1300px;
+    /* height: 1300px; */
     background-color: #fff;
 }
 
@@ -97,7 +97,7 @@
 
 .features {
     color: #CB416B;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     border-bottom: solid 2px #CB416B;
 }
@@ -111,7 +111,7 @@
 
 .reviews {
     background-image: url(../portfolio2/cnt04_bg.jpg);
-    height: 750px;
+    /* height: 750px; */
     background-size: contain;
 }
 
@@ -132,6 +132,10 @@
 .pinktext {
     color: #CB416B;
     font-size: 50px;
+}
+
+.reviewslist-wrap {
+    margin-bottom: 60px;
 }
 
 .reviewslist {
@@ -157,7 +161,7 @@
 
 .form {
     background-color: #fff5fb;
-    height: 850px;
+    /* height: 850px; */
 }
 
 .form-maintext h2 {
@@ -176,12 +180,16 @@
     margin: 30px auto 70px;
 }
 
+.form-wrap {
+    padding-bottom: 65px;
+}
+
 
 .button {
     margin-top: 50px;
     font-size: 35px;
-    padding: 10px 90px;/*文字と線の間の余白*/
-    color: white;/*文字色*/
+    padding: 25px 90px;
+    color: white;
     background-color: #933D74;
     border-radius: 10px;
     width: 60%;
@@ -199,13 +207,13 @@
 
 .footer {
     background-color: #CA3F70;
-    height: 50px;
+    /* height: 50px; */
 }
 
 .footer-text {
     text-align: center;
     color: #fff;
-    padding-top: 12px;
+    padding: 5px 0 5px;
 }
 
 .footer-text p {
@@ -229,7 +237,7 @@
     }
 
     .worries {
-        height: 650px;
+        /* height: 650px; */
     }
 
     .worries-wrap {
@@ -237,12 +245,12 @@
     }
 
     .worries-wrap p {
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 0;
     }
 
     .worries-wrap h2 {
-        font-size: 40px;
+        font-size: 48px;
     }
 
     .worries h2{
@@ -254,7 +262,7 @@
     }
 
     .benefit {
-        height: 1320px;
+        /* height: 1220px; */
     }
 
     .benefit-answer h2 {
@@ -279,6 +287,7 @@
 
     .benefit-wrap {
         margin-top: 30px;
+        margin-bottom: 80px;
     }
 
     .benefitlist {
@@ -296,7 +305,7 @@
     }
 
     .reviews {
-        height: 1300px;
+        /* height: 1350px; */
     }
 
     .reviews-maintext {
@@ -321,7 +330,11 @@
     }
 
     .form {
-        height: 670px;
+        /* height: 800px; */
+    }
+
+    .form-maintext h2 {
+        line-height: 55px;
     }
 
     .form-maintext h2 {
@@ -330,11 +343,16 @@
     }
 
     .form-maintext .pinktext {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    .form-img {
+        margin: 30px auto 50px;
+        width: 90%;
     }
 
     .button {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .footer-text {
@@ -358,7 +376,7 @@
     }
 
     .worries {
-        height: 320px;
+        /* height: 320px; */
     }
 
     .worries-wrap {
@@ -385,7 +403,7 @@
     }
 
     .benefit {
-        height: 980px;
+        /* height: 980px; */
     }
 
     .benefit-answer h2 {
@@ -421,7 +439,7 @@
     }
 
     .reviews {
-        height: 1450px;
+        /* height: 1450px; */
     }
 
     .reviews-maintext p {
@@ -440,6 +458,10 @@
     .reviews-maintext img {
         width: 50%;
     }
+
+    .reviewslist-wrap {
+        margin-bottom: 40px;
+    }
   
     .reviewslist {
         width: 100%;
@@ -455,7 +477,7 @@
     }
 
     .form {
-        height: 440px;
+        /* height: 440px; */
     }
 
     .form-maintext h2 {
@@ -473,9 +495,13 @@
         width: 90%;
     }
 
+    .form-wrap {
+        padding-bottom: 40px;
+    }
+
     .button {
-        font-size: 20px;
-        padding: 10px 40px;
+        font-size: 30px;
+        padding: 15px 40px;
         color: white;
         background-color: #933D74;
         border-radius: 10px;
@@ -488,7 +514,6 @@
 
     .footer-text {
         font-size: 13px;
-        padding-top: 6px;
     }
     
 
