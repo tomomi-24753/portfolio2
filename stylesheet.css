@@ -220,7 +220,33 @@
     margin-block-end: 0;
 }
 
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+}
+ 
+#page-top a {
+    display: block;
+    background: rgb(148, 146, 146);
+    color: #fff;
+    /* width: 100px; */
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    /* border-bottom: 5px solid black; */
+    opacity: 0.5;
 
+}
+ 
+#page-top a:hover {
+    background: rgb(196, 193, 193);
+    text-decoration: none;
+    /* border-bottom: 2px solid black; */
+
+}
 
 
 
@@ -234,10 +260,6 @@
 
     .sp {
         display: block !important;
-    }
-
-    .worries {
-        /* height: 650px; */
     }
 
     .worries-wrap {
