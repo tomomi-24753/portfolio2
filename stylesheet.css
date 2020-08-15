@@ -517,8 +517,8 @@
     }
 
     .button {
-        font-size: 24px;
-        padding: 13px 40px;
+        font-size: 20px;
+        padding: 13px 20px;
         color: white;
         background-color: #933D74;
         border-radius: 10px;
@@ -533,6 +533,9 @@
         font-size: 13px;
     }
     
+    #page-top a {
+        padding: 18px;
+    }
 
 }
 
