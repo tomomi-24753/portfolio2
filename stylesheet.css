@@ -231,21 +231,16 @@
     display: block;
     background: rgb(148, 146, 146);
     color: #fff;
-    /* width: 100px; */
     padding: 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    /* border-bottom: 5px solid black; */
-    opacity: 0.5;
-
+    opacity: 0.8;
 }
  
 #page-top a:hover {
     background: rgb(196, 193, 193);
     text-decoration: none;
-    /* border-bottom: 2px solid black; */
-
 }
 
 
